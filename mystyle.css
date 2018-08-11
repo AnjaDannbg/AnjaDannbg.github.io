@@ -61,7 +61,6 @@
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
-  display: none;
   background-color: #bc6225;
   padding-left: 20px;
 }
@@ -71,3 +70,7 @@
   float: right;
   padding-right: 8px;
 } 
+
+a#selected {
+  font-weight: bold;
+}
