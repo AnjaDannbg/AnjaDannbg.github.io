@@ -180,6 +180,9 @@ a#selected {
   float: left;
   width: 16.66%;
   text-align: center;
+  padding-left:1%;
+  padding-right:1%;
+  max-width:100px;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -214,4 +217,11 @@ a#selected {
   left: -15px;
   top: 250px;
   z-index: 10;
+}
+
+.gallery-container {
+  top:0;
+  left:0;
+  right:0;
+  height:100%;
 }
