@@ -9,7 +9,8 @@
             }
         </style>
 	<link rel="stylesheet" type="text/css" href="../mystyle.css">
-	<script src="../javascript.js"></script>
+	<script src="../js/javascript.js"></script>
+	<script src="../js/modernizr.custom.17475.js"></script>
 	
 </head>
 
@@ -85,38 +86,34 @@
 
                     <br>
 
-        
-                    
                     <!-- Thumbnail images -->
-                    <div class="slider-container">
-                            <div class="row">
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/Curtains_tn.jpg" style="width:100%" onclick="currentSlide(1)" alt="Curtains"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/ostern_smaller_tn.jpg" style="width:100%" onclick="currentSlide(2)" alt="Ostern"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/Lukas_Profilbild_tn.jpg" style="width:100%" onclick="currentSlide(3)" alt="Profile Pic 1"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/Bodo_Profilbild_tn.jpg" style="width:100%" onclick="currentSlide(4)" alt="Profile Pic 2"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/Timur_Profilbild_tn.jpg" style="width:100%" onclick="currentSlide(5)" alt="Profile Pic 3"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/Linus_portrait_vector_smaller_tn.jpg" style="width:100%" onclick="currentSlide(6)" alt="Linus Portrait"/>
-                                    </div>
-                                    <div class="column">
-                                        <img class="demo cursor" src="thumbnails/feline_seele_bookcover_tn.jpg" style="width:100%" onclick="currentSlide(7)" alt="Feline Seele - Bookcover"/>
-                                    </div>
-                            </div>
+					<div class="slider-container">
 
-                    </div>
+							<ul id="carousel" class="elastislide-list">
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Curtains_tn.jpg" onclick="currentSlide(1)" alt="Curtains" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/ostern_smaller_tn.jpg" onclick="currentSlide(2)" alt="Ostern" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Lukas_Profilbild_tn.jpg" onclick="currentSlide(3)" alt="Profile Pic 1" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Bodo_Profilbild_tn.jpg" onclick="currentSlide(4)" alt="Profile Pic 2" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Timur_Profilbild_tn.jpg" onclick="currentSlide(5)" alt="Profile Pic 3" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Linus_portrait_vector_smaller_tn.jpg" onclick="currentSlide(6)" alt="Linus Portrait" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/feline_seele_bookcover_tn.jpg" onclick="currentSlide(7)" alt="Feline Seele - Bookcover" /></a></li>
+									
+									<!-- ... -->
+							</ul>
+		
+					</div>
             
             </div>
     </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquerypp.custom.js"></script>
+	<script type="text/javascript" src="../js/jquery.elastislide.js"></script>
+	<script type="text/javascript">
+		
+		$( '#carousel' ).elastislide();
+		
+	</script>
 	
 </body>
 

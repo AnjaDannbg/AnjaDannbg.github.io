@@ -9,7 +9,8 @@
 		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="../mystyle.css">
-	<script src="../javascript.js"></script>
+	<script src="../js/javascript.js"></script>
+	<script src="../js/modernizr.custom.17475.js"></script>
 	
 </head>
 
@@ -70,32 +71,32 @@
 					</div>
 					
 					<br>
-					
-					
+
 					<!-- Thumbnail images -->
 					<div class="slider-container">
 
-						<div class="row">
-
-							<div class="column">
-								<img class="demo cursor" src="thumbnails/Sv_Screenshot_tn.jpg" style="width:100%" onclick="currentSlide(1)" alt="Page 1">
-							</div>
-							<div class="column">
-								<img class="demo cursor" src="thumbnails/Sv_GUI_01_tn.jpg" style="width:100%" onclick="currentSlide(2)" alt="Page 2">
-							</div>
-							<div class="column">
-								<img class="demo cursor" src="thumbnails/Sv_GUI_02_tn.jpg" style="width:100%" onclick="currentSlide(3)" alt="Page 3">
-							</div>
-							<div class="column">
-								<img class="demo cursor" src="thumbnails/Sv_GUI_03_tn.jpg" style="width:100%" onclick="currentSlide(4)" alt="Page 4">
-							</div>
-
-						</div>
-
+							<ul id="carousel" class="elastislide-list">
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Sv_Screenshot_tn.jpg" onclick="currentSlide(1)" alt="title screen" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Sv_GUI_01_tn.jpg" onclick="currentSlide(2)" alt="GUI 01" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Sv_GUI_02_tn.jpg" onclick="currentSlide(3)" alt="GUI 02" /></a></li>
+									<li><a href="#"><img class="demo cursor" src="thumbnails/Sv_GUI_03_tn.jpg" onclick="currentSlide(4)" alt="GUI 03" /></a></li>
+									
+									<!-- ... -->
+							</ul>
+		
 					</div>
-
+					
 			</div>
 	</div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquerypp.custom.js"></script>
+	<script type="text/javascript" src="../js/jquery.elastislide.js"></script>
+	<script type="text/javascript">
+		
+		$( '#carousel' ).elastislide();
+		
+	</script>
 
 </body>
 
