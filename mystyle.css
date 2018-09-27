@@ -1,4 +1,9 @@
 /* Style page content */
+
+.title-text {
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  
+}
  
  /* Fixed sidenav, full height */
 .sidenav {
@@ -200,6 +205,11 @@ a#selected {
   font-size: 12px;
   padding: 8px 12px 20px;
   top: 0;
+}
+
+.mySlides .text {
+  padding:  10px 0;
+  font-size: 20px;
 }
 
 /* Container for image text */
