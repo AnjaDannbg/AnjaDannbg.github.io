@@ -8,6 +8,9 @@
 .info-text {
   font-size: 16px;
   margin-bottom: 5px;
+  padding-bottom: 45px;
+  position: absolute;
+  bottom: 0;
 }
 
 .linkedin-link {
@@ -265,7 +268,6 @@ a#selected {
 }
 
 .slider-container {
-  background-color: white;
   max-width: 1200px;
   right:0px;
   left:0;
@@ -306,7 +308,7 @@ a#selected {
 
 .elastislide-wrapper {
 	position: relative;
-	background-color: #fff;
+	background-color: rgb(255, 255, 255);
 	margin: 0 auto;
 	min-height: 60px;
 }
@@ -370,8 +372,10 @@ a#selected {
 
 .elastislide-carousel ul li a img {
 	display: block;
-	border: 2px solid white;
-	max-width: 100%;
+	border: 1px solid rgb(136, 136, 136);
+  max-width: 100%;
+  height: auto;
+  padding: 3px;
 }
 
 /* Navigation Arrows */

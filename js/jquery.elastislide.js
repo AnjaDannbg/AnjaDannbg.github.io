@@ -340,7 +340,7 @@
 			this.imgSize = { width : $img.outerWidth( true ), height : $img.outerHeight( true ) };
 
 			this._setItemsSize();
-			this.options.orientation === 'horizontal' ? this.$el.css( 'max-height', this.imgSize.height ) : this.$el.css( 'height', this.options.minItems * this.imgSize.height );
+			this.options.orientation === 'horizontal' ? this.$el.css( 'max-height', '120px' ) : this.$el.css( 'height', this.options.minItems * this.imgSize.height );
 
 			// add the controls
 			this._addControls();
