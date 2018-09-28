@@ -4,6 +4,16 @@
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   
 }
+
+.info-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.linkedin-link {
+  font-size: 14px;
+  color: rgb(95, 95, 95);
+}
  
  /* Fixed sidenav, full height */
 .sidenav {
