@@ -265,8 +265,8 @@ a#selected {
 }
 
 .slider-container {
+  background-color: white;
   max-width: 1200px;
-  left: 250px; /* Same as the width of the sidenav */
   right:0px;
   left:0;
   bottom:0;
@@ -292,7 +292,8 @@ a#selected {
 
 .elastislide-list {
 	list-style-type: none;
-	display: none;
+  display: none;
+  text-align: center;
 }
 
 .no-js .elastislide-list {
@@ -300,7 +301,7 @@ a#selected {
 }
 
 .elastislide-carousel ul li {
-	min-width: 20px; /* minimum width of the image (min width + border) */
+  min-width: 20px; /* minimum width of the image (min width + border) */
 }
 
 .elastislide-wrapper {
