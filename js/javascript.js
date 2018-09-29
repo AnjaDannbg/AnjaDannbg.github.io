@@ -24,8 +24,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
 } 
 
-// add navigation elements...
+function resizeImage() {
+  var mySlide = document.getElementByClassName('mySlides fade');
+  if(mySlide && (mySlide.style.display != 'none')) {
+    mySlide.img.style.height = '200px';
+  }
 
-
+}
 
 $('#carousel').elastislide();

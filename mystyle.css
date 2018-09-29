@@ -2,7 +2,7 @@
 
 .title-text {
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-  
+  margin-left: 30px;
 }
 
 .info-text {
@@ -11,6 +11,7 @@
   padding-bottom: 45px;
   position: absolute;
   bottom: 0;
+  margin-left: 30px;
 }
 
 .linkedin-link {
@@ -136,16 +137,13 @@ a#selected {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  left: 250px; /* Same as the width of the sidenav */
+  left: 240px;
   float: none;
   top: 0;
   right: 0;
   bottom: 0;
   position: absolute;
-  margin-right: 5%;
-  max-width: 1200px;
-  margin-top: 20px;
-  margin-left: 2%;
+  margin-top: 100px;
 }
 
 .gallery {
@@ -154,7 +152,7 @@ a#selected {
   left: 0;
   right: 0;
   float: none;
-  max-width: 1200px;
+  margin: auto;
 }
 
 /* Hide the images by default */
@@ -175,6 +173,17 @@ a#selected {
   -moz-box-shadow: 1px 1px 5px 4px rgba(135,135,135,1);
   box-shadow: 1px 1px 5px 4px rgba(135,135,135,1);
   border:1px solid #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 200px;
+  margin: auto;
+  max-width: 100%;
+  max-height: 70%;
+  overflow: auto;
+  padding:30px;
+  
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -188,7 +197,7 @@ a#selected {
   background-color: rgb(139, 139, 139);
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 0;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -198,6 +207,8 @@ a#selected {
   border-radius: 3px 3px 3px 3px;
   user-select: none;
   -webkit-user-select: none;
+  height: 100vh;
+  padding-top: 42vh;
 }
 
 /* Position the "next button" to the right */
@@ -216,13 +227,17 @@ a#selected {
 .numbertext {
   color: #000000;
   font-size: 12px;
-  padding: 8px 12px 20px;
-  top: 0;
+  padding-left: 12px;
 }
 
 .mySlides .text {
-  padding:  10px 0;
-  font-size: 20px;
+  font-size: 3vh;
+  margin: 0 auto;
+  text-align: center;
+  position: fixed;
+  top: 5%;
+  left: 250px;
+  right: 0;
 }
 
 /* Container for image text */
@@ -268,11 +283,12 @@ a#selected {
 }
 
 .slider-container {
-  max-width: 1200px;
   right:0px;
   left:0;
   bottom:0;
   position:absolute;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .left {
