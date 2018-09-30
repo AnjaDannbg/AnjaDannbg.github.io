@@ -2,7 +2,6 @@
 
 .title-text {
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
-  margin-left: 7vw;
 }
 
 .info-text {
@@ -106,7 +105,6 @@
   padding: 0px 10px 10px 0px;
   height: 100%;
   width: 100%;
-  position: fixed;
 }
 
 /* Add an active class to the active dropdown button */
@@ -137,13 +135,14 @@ a#selected {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  left: 240px;
+  left: 250px;
   float: none;
   top: 0;
   right: 0;
   bottom: 0;
   position: absolute;
   margin-top: 100px;
+  padding: 0 8vw;
 }
 
 .gallery {
@@ -182,7 +181,7 @@ a#selected {
   max-width: 100%;
   max-height: 70%;
   overflow: auto;
-  padding:30px;
+  padding:2%;
   
 }
 
