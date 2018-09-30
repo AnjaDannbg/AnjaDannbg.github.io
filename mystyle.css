@@ -291,7 +291,8 @@ a#selected {
   bottom:0;
   position:absolute;
   max-width: 1400px;
-  margin: 0 60px;
+  margin: 0 auto;
+  padding: 0 8vw;
 }
 
 .left {
@@ -408,7 +409,7 @@ a#selected {
 	cursor: pointer;
   opacity: 0.8;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2vw;
   margin-top: -30px;
 }
 
